@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProfileService } from '../services/profile.service';
 
 @Component({
   selector: 'app-home',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './home.css'
 })
 export class Home {
+
+  constructor(private profileService: ProfileService) {}
 
 }
