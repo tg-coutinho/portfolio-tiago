@@ -13,7 +13,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding: 45px 0px;
+   padding: 45px 5px;
 }
 
 
@@ -32,7 +32,7 @@
 .banner .box .title2 {
     font-size: var(--font-size-1);
     display: block;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .banner .box .buttons {
@@ -70,3 +70,77 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+
+/* box about */
+
+.about .box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.about .box .img {
+  display: flex;
+  justify-content: center;
+}
+
+.about .box .img img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 50%;
+}
+
+.about .box .text {
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.about .box .text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.about .box .text h3 {
+  color: var(--color-blue-2);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about .box .text p {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.about .box .text a {
+  color: var(--color-pink-1);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .about .box {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .about .box .img {
+    flex: 0 0 280px;
+    justify-content: flex-end;
+  }
+
+  .about .box .text {
+    flex: 1;
+    padding: 0;
+    max-width: 800px;
+  }
+}
+
+
