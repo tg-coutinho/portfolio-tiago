@@ -24,5 +24,16 @@
     --color-pink-1: #f42771;
 
     --color-black-1: #181818;
+    --color-black-2: #2c2c2c;
 
 }
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;  /* mais fino que o normal */
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
