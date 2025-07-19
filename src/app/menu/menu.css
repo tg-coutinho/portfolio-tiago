@@ -6,31 +6,31 @@ nav {
     display: flex;
     align-items: center;
     justify-content: right;
-    height: 70px;
+    height: 70px
 }
 
 nav ul {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     list-style: none;
+    flex-direction: column;
     position: absolute;
     top: 70px;
     background: #fff;
     width: 100%;
 }
 
-nav ul.open {
-  display: flex;
+nav ul.closed {
+    display: none;
 }
 
-nav ul.closed {
-  display: none;
+nav ul.open {
+    display: flex;
 }
 
 nav ul li {
-    padding: 20px;  
+    padding: 20px;
 }
 
 nav ul li a {
@@ -38,23 +38,19 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--color-blue-2);
+    color: var(--color-blue-2)
 }
 
-nav i{
+nav i {
     font-size: 45px;
     margin: 0 15px;
     cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 @media (min-width: 768px) {
-    nav  {
-        justify-content: center;
+
+    nav {
+        justify-content: center
     }
 
     nav ul.open,
@@ -62,10 +58,10 @@ a {
         display: flex;
         flex-direction: row;
         position: relative;
-        top: 0;
+        top: 0
     }
 
     nav i {
-        display: none;
+        display: none
     }
 }
