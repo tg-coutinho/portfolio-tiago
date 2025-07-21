@@ -12,23 +12,23 @@ export class MenuService {
     getItems(): Array <Menu> {
 
       const menu: Array<Menu> = [
-        {name: 'inicio',
+        {name: 'Inicio',
           url: '#banner'
         },
         {
-          name:'sobre mim',
+          name:'Sobre mim',
           url: '#about'
         },
         {
-          name: 'habilidades',
+          name: 'Habilidades',
           url: '#skills'
         },
         {
-          name: 'projetos',
+          name: 'Projetos',
           url: '#projects'
         },
         {
-          name: 'contato',
+          name: 'Contato',
           url: '#contact'
         }
       ];
